@@ -1,0 +1,16 @@
+{
+  "name": "poketuber_api",
+  "version": "1.0.0",
+  "description": "API to store teams for pkmn youtuber websites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "serverless deploy --aws-profile home_personal",
+    "removestack": "serverless remove --aws-profile home_personal"
+  },
+  "author": "Haroun Ansari",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0"
+  }
+}
